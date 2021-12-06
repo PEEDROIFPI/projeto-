@@ -1,0 +1,25 @@
+.botao{
+    background-color: rgb(122, 229, 236);
+    font-size:  2rem;
+
+
+    width: 2.4rem;
+    height: 2.4rem;
+
+    border-radius: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+
+    position: relative;
+    top: 16rem;
+    left: 25rem;
+
+}
+
+.botao a{
+    color: red;
+    height: 140%;
+    
+}

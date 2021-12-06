@@ -1,6 +1,7 @@
+import { BotaoFlutuante } from '../componentes/BotaoFlutuante'
 import estilos from './estilo.module.css'
 
-import { createEmitAndSemanticDiagnosticsBuilderProgram } from "typescript";
+
 
 export function Tarefas(){
     return (
@@ -10,6 +11,9 @@ export function Tarefas(){
             <li>Cortar a Grama</li>
             <li>Limpar a Piscina</li>
         </ul>
+       
+        <BotaoFlutuante/>
+
     </div>
   )
 }

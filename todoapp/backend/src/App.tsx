@@ -1,22 +1,24 @@
 import React from 'react';
+
 import './App.css';
 import { Rotas } from './rotas';
+import { HeaderLadoesquerdo} from './componentes/HeaderLadoesquerdo';
+import { HeaderLadodireito } from './componentes/HeaderLadodireito';
 
 function App() {
   return (
     <div className="container">
       <header>
-        <h1 className='topo1'>Aplicativo de tarefas</h1>
-        <nav>
-          <a className='topo0' href="/Tarefas">Minhas Tarefas</a><br />
-          <a className='topo2' href='/novas-tarefas'>Nova Tarefa</a>
-        </nav>
+        <HeaderLadoesquerdo />
+        <HeaderLadodireito />
+        
+        
       </header>
       <main>
         <Rotas/>
       </main>
       <footer>
-        <p className='fim'>Feito com ReactJs + JsonServer + 1</p>
+        Feito com ReactJs + JsonServer + 1
       </footer>
     </div>
   );

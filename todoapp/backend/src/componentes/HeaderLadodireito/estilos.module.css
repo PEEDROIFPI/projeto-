@@ -1,0 +1,29 @@
+.headerladodireito{
+    flex: 2;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    border-bottom: 0.5 solid salmon;
+}
+
+.bloco{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(0, 255, 34);
+    justify-content: center;
+    background-color: royalblue;
+    height: 3rem;
+    color: sandybrown;
+    text-align: center;
+    flex-grow: 1;
+
+}
+
+.bloco p{
+    color: red;
+}
+
+.bloco span{
+    font-size: 0.9
+}
